@@ -1,0 +1,101 @@
+
+Machine Learning Algorithms Explained In-Depth
+=============================================
+
+1. SUPERVISED LEARNING
+-----------------------
+
+A. Linear Regression
+- Predicts continuous output using a line of best fit.
+- Formula: y = wx + b
+- Optimized via Least Squares or Gradient Descent.
+- Pros: Simple, interpretable. Cons: Assumes linearity.
+
+B. Logistic Regression
+- For binary classification using sigmoid function.
+- Outputs probability between 0 and 1.
+- Loss: Binary Cross Entropy.
+
+C. Decision Trees
+- Tree-based model using feature splits.
+- Criteria: Gini Impurity, Entropy.
+- Prone to overfitting without pruning.
+
+D. Random Forest
+- Ensemble of decision trees using bagging.
+- Reduces overfitting, more robust.
+
+E. K-Nearest Neighbors (KNN)
+- Classifies based on the K closest data points.
+- No training, lazy learner.
+
+F. Support Vector Machines (SVM)
+- Finds optimal hyperplane with maximum margin.
+- Uses kernel trick for non-linear classification.
+
+G. Naive Bayes
+- Probabilistic classifier based on Bayes’ Theorem.
+- Assumes feature independence.
+
+H. Gradient Boosting / XGBoost / LightGBM
+- Boosted decision trees that improve sequentially.
+- Highly accurate, slower to train.
+
+2. UNSUPERVISED LEARNING
+-------------------------
+
+A. K-Means Clustering
+- Groups data into K clusters.
+- Uses distance to centroids.
+
+B. Hierarchical Clustering
+- Builds nested clusters using linkage methods.
+- No need for predefined K.
+
+C. DBSCAN
+- Density-based clustering.
+- Detects noise and arbitrary shaped clusters.
+
+D. Principal Component Analysis (PCA)
+- Reduces dimensionality by maximizing variance.
+- Projects onto new axes (components).
+
+3. REINFORCEMENT LEARNING
+--------------------------
+
+A. Q-Learning
+- Model-free learning of optimal policy.
+- Updates Q-values via Bellman equation.
+
+B. Deep Q-Networks (DQN)
+- Uses neural networks to approximate Q-values.
+- Learns from interaction with environment.
+
+4. NEURAL NETWORKS & DEEP LEARNING
+-----------------------------------
+
+A. Artificial Neural Networks (ANN)
+- Layers of connected neurons.
+- Learns via backpropagation.
+
+B. Convolutional Neural Networks (CNN)
+- Designed for image data.
+- Uses filters to detect patterns.
+
+C. Recurrent Neural Networks (RNN)
+- Handles sequence data using hidden states.
+
+D. LSTM / GRU
+- RNN variants that capture long-term dependencies.
+
+E. Transformers (e.g., BERT, GPT)
+- Uses self-attention for contextual understanding.
+- State-of-the-art in NLP.
+
+5. SEMI-SUPERVISED / SELF-SUPERVISED
+-------------------------------------
+
+- Uses unlabeled data with small labeled subset.
+- Techniques include pseudo-labeling, autoencoders.
+
+End of Summary
