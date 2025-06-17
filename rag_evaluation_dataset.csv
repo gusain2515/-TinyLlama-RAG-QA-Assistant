@@ -1,0 +1,11 @@
+query,expected_answer
+What is linear regression?,Linear regression predicts continuous output using a line of best fit and is optimized via least squares or gradient descent.
+What is logistic regression used for?,Logistic regression is used for binary classification and outputs a probability between 0 and 1 using a sigmoid function.
+Explain the role of decision trees in machine learning.,Decision trees are models that split data based on features using criteria like Gini Impurity or Entropy.
+What are the benefits of random forests?,Random forests are ensembles of decision trees that reduce overfitting and provide robustness.
+How does KNN algorithm work?,K-Nearest Neighbors classifies based on the majority class among the K closest data points.
+What is Q-learning?,Q-learning is a model-free reinforcement learning algorithm that learns the optimal policy using the Bellman equation.
+Describe the Transformer model architecture.,"The Transformer is a model based solely on attention mechanisms, removing recurrence and convolutions entirely."
+What is self-attention in transformers?,Self-attention allows the model to weigh the importance of different words in a sequence regardless of their position.
+What is multi-head attention?,"Multi-head attention applies attention multiple times in parallel, allowing the model to focus on different subspaces."
+What is the purpose of positional encoding in transformers?,Positional encoding injects information about the order of tokens since transformers lack recurrence.
